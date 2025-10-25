@@ -105,17 +105,17 @@ body {
 }
 
 #prev-btn {
-  left: 10px;
+  left: 20px;
 }
 
 #next-btn {
-  right: 10px;
+  right: 20px;
 }
 
 @media (max-width: 600px) {
   .lightbox img {
-    max-width: 70%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
   }
 
   .arrow {
