@@ -76,18 +76,16 @@ body {
 #close-btn {
   position: absolute;
   top: 30px;
-  right: 40px;
+  right: 35px;
   font-size: 2.5rem;
   color: #fff;
   background: none;
   border: none;
   cursor: pointer;
-  transition: color 0.3s ease;
+  
 }
 
-#close-btn:active {
-  color: #d485c0;
-}
+
 
 .arrow {
   position: absolute;
@@ -99,17 +97,17 @@ body {
   border: none;
   cursor: pointer;
   padding: 10px 15px;
-  transition: color 0.3 ease;
+  
   user-select: none;
   z-index: 1001;
 }
 
 #prev-btn {
-  left: 20px;
+  left: 30px;
 }
 
 #next-btn {
-  right: 20px;
+  right: 30px;
 }
 
 @media (max-width: 600px) {
@@ -118,8 +116,4 @@ body {
     max-height: 90%;
   }
 
-  .arrow {
-    font-size: 2.5rem;
-    padding: 0.3rem;
-  }
 }
