@@ -52,6 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  display: flex;
 }
 
 .lightbox img {
@@ -64,6 +65,7 @@ body {
   transform: scale(0.95);
   transition: opacity 0.4s ease, transform 0.4s ease;
   z-index: 1;
+  position: relative;
 }
 
 .lightbox.show img {
@@ -99,15 +101,15 @@ body {
   padding: 10px 15px;
   transition: color 0.3 ease;
   user-select: none;
-  z-index: 10;
+  z-index: 1001;
 }
 
 #prev-btn {
-  left: 30px;
+  left: 10px;
 }
 
 #next-btn {
-  right: 30px;
+  right: 10px;
 }
 
 @media (max-width: 600px) {
